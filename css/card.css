@@ -1,0 +1,46 @@
+.card {
+  color: var(--color-primary);
+  border: 1px solid var(--color-tertiary);
+  border-radius: 4px;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+}
+
+.card-bottom-section {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-bottom-section .read-time,
+.card-bottom-section .name {
+  font-size: 0.8rem;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  text-decoration: none;
+}
+
+.card:hover h2,
+.card:focus h2,
+.card:active h2 {
+  text-decoration: underline;
+}
+
+.author {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.author img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-tertiary);
+  margin-right: 0.5rem;
+}

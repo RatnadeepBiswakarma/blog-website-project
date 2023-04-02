@@ -1,0 +1,79 @@
+/* At least 3 imported css file */
+@import "./nav.css";
+@import "./card.css";
+@import "./blog-page.css";
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #10403b;
+  --color-secondary: #365788;
+  --color-tertiary: #bfbfbf;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 3.75rem 1fr;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin: 0 0 1rem;
+}
+
+p {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+
+main {
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.blogs {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .blogs {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,46 @@
+.full-blog h1 {
+  font-size: 2rem;
+}
+
+.full-blog img {
+  width: 100%;
+}
+
+.full-blog figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.full-blog p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+.full-blog aside h2 {
+  font-size: 1.75rem;
+  color: var(--color-secondary);
+}
+
+.sidebar-link {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  font-size: 1.125rem;
+  display: block;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 786px) {
+  body .full-blog {
+    margin: 2rem auto;
+    max-width: 70rem;
+    display: flex;
+  }
+
+  .sidebar {
+    min-width: 20rem;
+    margin-left: 4rem;
+  }
+}
