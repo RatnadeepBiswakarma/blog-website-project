@@ -32,6 +32,34 @@
   margin-top: 1rem;
 }
 
+.author-info {
+  margin: 4rem 0;
+}
+
+.author-image-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.author-image-cont img {
+  border: 1px solid #d1d1d1;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.author-info p {
+  line-height: 1.5;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.author-info a {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 786px) {
   body .full-blog {
     margin: 2rem auto;
